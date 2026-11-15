@@ -10,12 +10,12 @@ Visual showcase and architecture overview of the personal portfolio website for 
 ## 📸 Visual Previews
 
 ### 1. Hero Section & Interactive Character Tracking
-An award-winning, interactive hero section featuring a 60 FPS zero-ghosting, zero-lag character animation that tracks user cursor movements with real-time rotational physics and direct eye contact.
+Interactive hero section featuring character animation that tracks user cursor movements with real-time rotational physics and direct eye contact.
 
 ![Hero Section](images/hero-section.png)
 
 * **Key Highlights:**
-  * 60 FPS HTML5 Canvas renderer with pre-rendered WebP frames.
+  * HTML5 Canvas renderer with pre-rendered WebP frames.
   * Shortest-path circular angular lerp for fluid cursor following.
   * Direct eye-contact deadzone when hovering near the center.
   * Custom magnetic spring cursor with dynamic trailing ring.
@@ -43,7 +43,7 @@ Seamless call-to-action with interactive modal messaging and direct links to Git
 
 ## 🛠️ Technology Stack
 
-* **Frontend:** React 19, Vite, Tailwind CSS, HTML5 Canvas (60 FPS)
+* **Frontend:** React 19, Vite, Tailwind CSS, HTML5 Canvas
 * **Design & Physics:** Custom Spring Dynamics, OpenCV Inpainting, Frosted Glass Glassmorphism
 * **Backend & Systems:** Python, FastAPI, DuckDB, SQLite, WebSockets
 * **Deployment:** GitHub Pages / Vercel
